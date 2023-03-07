@@ -7,12 +7,14 @@ public class Vehicle{
         PetolEngine pE = new PetolEngine();
         DiselEng dE = new DiselEng();
         electricEngine eN = new electricEngine();
+        HydroEngine hE = new HydroEngine();
 
             pE.start();  
             dE.start();
             eN.start();
             eN.stop();
-            
+            hE.start();
+            hE.stop();
 
  }
 }
