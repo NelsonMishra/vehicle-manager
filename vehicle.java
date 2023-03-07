@@ -6,9 +6,12 @@ public class Vehicle{
     public static void main(String[] args) {
         PetolEngine pE = new PetolEngine();
         DiselEng dE = new DiselEng();
+        electricEngine eN = new electricEngine();
 
             pE.start();  
             dE.start();
+            eN.start();
+            eN.stop();
             
 
  }
