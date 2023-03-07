@@ -1,4 +1,4 @@
-public class electric-engine{
+public class electricEngine{
     public void start(){
         System.out.println("electric engine start");
     }

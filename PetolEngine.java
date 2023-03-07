@@ -3,6 +3,6 @@ public class PetolEngine{
         System.out.println("pertol engien start"); 
     }
     public void stop(){
-        System.out.println("perto; engien stop");
+        System.out.println("pertol engien stop");
     }
 }
