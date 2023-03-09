@@ -1,4 +1,5 @@
 public class Vehicle{
+    int tyres;
 
     private PetolEngine pE;
         
@@ -15,6 +16,8 @@ public class Vehicle{
             eN.stop();
             hE.start();
             hE.stop();
+
+            this.tyres = 4;
 
  }
 }
